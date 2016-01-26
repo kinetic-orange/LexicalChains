@@ -1,13 +1,13 @@
 # LexicalChains
 
-## Steps to Run
+### Steps to Run
 1.	Open lexicalChains.py
 2.	Place the text file titled “nlp.txt” in the current working directory
 3.	Run lexicalChains.py
 4.	Type input filename (use “nlp” or create own test file) in the console when prompted
 
 
-Program description
+### Program description
 
 lexicalChains.py reads a text file as input, identifies and print all the lexical chains.
 
@@ -26,13 +26,13 @@ Return a score denoting how similar two word senses are, based on the depth of t
 Return a score denoting how similar two word senses are, based on the Information Content (IC) of the Least Common Subsumer (most specific ancestor node) and that of the two input Synsets. The relationship is given by the equation 1 / (IC(s1) + IC(s2) - 2 * IC(lcs)).
 
 
-The threshold values for each of these similarity functions was determined using trial and error and was set as 
+The threshold values for each of these similarity functions is set as:
 Wupthreshold = 0.6 #treshold for wup
 jcnTreshold = 0.09 #jcn
 pathTeshold = 0.1 #path
 
 
-Data Structures: 
+### Data Structures: 
 
 The program uses a class called Chain with attribute word and senses and methods to set and get word and senses.
 A dictionary is used to store the count of each word, where the key is the word, value is the count.
