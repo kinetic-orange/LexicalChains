@@ -27,9 +27,9 @@ Return a score denoting how similar two word senses are, based on the Informatio
 
 
 The threshold values for each of these similarity functions is set as:
-Wupthreshold = 0.6 #treshold for wup
-jcnTreshold = 0.09 #jcn
-pathTeshold = 0.1 #path
+Wupthreshold = 0.6
+jcnTreshold = 0.09
+pathTeshold = 0.1 
 
 
 ### Data Structures: 
